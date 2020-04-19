@@ -19,7 +19,8 @@ function verifyInputCode() {
         }
     }
 
-    displayConversion(arrInput);
+    if(arrInput != "")
+        displayConversion(arrInput);
 }
 
 // converte o valor binário para decimal
